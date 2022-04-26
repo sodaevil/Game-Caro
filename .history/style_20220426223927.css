@@ -1,0 +1,72 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+  outline: none;
+  border: none;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+.app{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    display: flex;
+}
+.container{
+    max-width: 800px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+td{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+.header{
+    justify-content: center;
+    color: black;
+    font-size: 40px;
+    margin: 0 auto;
+
+}
+.red{
+    color: red;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+    
+}
+.blue{
+    color: rgb(0, 28, 189);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
