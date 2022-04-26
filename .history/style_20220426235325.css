@@ -113,7 +113,6 @@ td:hover{
     left: 50%;
     transform: translateX(-8%);
     top: 35px;
-    font-family: cursive;
 }
 @keyframes gradient {
     0% {

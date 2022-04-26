@@ -105,16 +105,6 @@ td:hover{
     padding: 5px;
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
 }
-.header{
-    color: white;
-    font-size: 39px;
-    font-weight: 400;
-    position: relative;
-    left: 50%;
-    transform: translateX(-8%);
-    top: 35px;
-    font-family: cursive;
-}
 @keyframes gradient {
     0% {
       background-position: 0% 50%;

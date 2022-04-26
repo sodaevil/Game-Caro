@@ -84,7 +84,19 @@ td:hover{
     background-color: black;
     opacity: 0.4;
 }
-
+.header{
+    position: relative;
+    left: 50%;
+    transform: translateX(-16%);
+    color: black;
+    font-size: 40px;
+    padding: 50px;
+    margin: 0 auto;
+    font-family: system-ui;
+    font-style: italic;
+    font-weight: 800;
+    
+}
 .red{
     color: red;
     font-size: 16px;
@@ -103,17 +115,8 @@ td:hover{
     border: 5px solid rgb(14, 2, 2);
     border-radius: 10px;
     padding: 5px;
+    border-radius:6px ;
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
-}
-.header{
-    color: white;
-    font-size: 39px;
-    font-weight: 400;
-    position: relative;
-    left: 50%;
-    transform: translateX(-8%);
-    top: 35px;
-    font-family: cursive;
 }
 @keyframes gradient {
     0% {

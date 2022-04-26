@@ -108,12 +108,9 @@ td:hover{
 .header{
     color: white;
     font-size: 39px;
-    font-weight: 400;
     position: relative;
     left: 50%;
     transform: translateX(-8%);
-    top: 35px;
-    font-family: cursive;
 }
 @keyframes gradient {
     0% {
