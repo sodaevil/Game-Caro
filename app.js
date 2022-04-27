@@ -7,3 +7,14 @@ for (let i = 0; i < 20; i++) {
         arr[i][j] = "";
     }
 }
+//Trinh:
+function isNotDaTa(i, j) {
+    if (arr[i][j] == "") {
+
+        return true;
+    } else {
+        alert("Ô này đánh rồi");
+        return false;
+    }
+}
+
