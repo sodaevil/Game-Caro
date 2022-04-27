@@ -7,48 +7,7 @@ for (let i = 0; i < 20; i++) {
         arr[i][j] = "";
     }
 }
-display();
 
-let choose = parseInt(prompt(" Người đi trước được chọn:  " + "(1) để chọn (x) / (2) để chọn(o)"));
-let checkPlayer1;
-if (choose == 1) {
-    checkPlayer1 = true;
-} else {
-    checkPlayer1 = false;
-}
-
-
-// hiển thị lên màn hình 
-function display() {
-    let stringTable = '<table>';
-    for (let i = 0; i < 10; i++) {
-        stringTable += '<tr>';
-        for (let j = 0; j < 10; j++) {
-            
-            if(arr[i][j]==="x"){
-                stringTable += '<td onclick="play(' + i + ' ,' + j + ')" style="width: 60px; height: 60px ; color: rgb(0, 28, 189); font-size: 44px;    border: 1px solid #000;" >' + arr[i][j] + '</td>';;
-            }
-            else {
-                stringTable += '<td onclick="play(' + i + ' ,' + j + ')" style="width: 60px; height: 60px ; color: red;font-size: 44px"  "   >' + arr[i][j] + '</td>';;
-            }
-            
-        }
-        stringTable += '</tr>';
-    }
-    stringTable += '</table>';
-    document.getElementById("Demo").innerHTML = stringTable;
-}
-
-// check value isemty
-function isNotDaTa(i, j) {
-    if (arr[i][j] == "") {
-        
-        return true;
-    } else {
-        alert("Ô này đánh rồi");
-        return false;
-    }
-}
 
 // check win
 function play(i, j) {
